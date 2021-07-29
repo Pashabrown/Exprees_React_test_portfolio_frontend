@@ -16,8 +16,17 @@ function App() {
   const URL = "https://portfolio-test-albert-brown.herokuapp.com/";
 
   return (
+    
     <div className="App">
-      <Header />
+      <div>
+       <div>
+         <h1>Albert Brown</h1>
+         </div> 
+       
+      <h2>Jr. Software Engineer</h2>
+      
+      <Header classname="lavastyle"/>
+        
       <Switch>
         <Route exact path="/">
           <Home />
@@ -29,7 +38,9 @@ function App() {
           <About URL={URL} />
         </Route>
       </Switch>
+      </div>
       <Footer />
+      
     </div>
   );
 }

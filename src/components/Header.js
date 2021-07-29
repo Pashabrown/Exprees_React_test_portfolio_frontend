@@ -5,15 +5,15 @@ function Header(props) {
   const navStyle = {
     display: "flex",
     justifyContent: "space-around",
-    border: "3px solid black",
-    padding: "8px",
-    width: "90%",
+    border: "30px solid black",
+    padding: "58px",
+    width: "70%",
     margin: "auto",
   };
 
   return (
     <header>
-      <h1>My Portfolio Page</h1>
+      
       <nav style={navStyle}>
         <Link to="/">
           <div>HOME</div>
