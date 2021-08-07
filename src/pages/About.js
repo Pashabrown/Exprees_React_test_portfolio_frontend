@@ -20,11 +20,16 @@ function About(props) {
   // define a function that will return the JSX needed once we get the data
   const loaded = () => (
     <div>
-      <h2>{about.name}</h2>
-      <h3>{about.email}</h3>
+      <hr></hr>
+      
       <img src={about.headshot} width="" height="" alt=""/>
-      <p>{about.bio}</p>
+      <hr></hr>
+      <h3>{about.email}</h3>
+      <div>
+      <column>I am a Software engineer who started and ran my own business for 12 years.<br></br> I’m an exceptional communicator and project manager, with a natural ability to help a team execute goals.<br></br> I also have a background in Sales, and helped build a startup company in Life Sciences.</column>
     </div>
+    </div>
+
   );
 
   // if data arrives return the result of loaded, if not, an h1 that says loading

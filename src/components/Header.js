@@ -16,13 +16,31 @@ function Header(props) {
       
       <nav style={navStyle}>
         <Link to="/">
-          <div>HOME</div>
+          <div
+      style={{
+        backgroundColor: '#fc929e',
+        width: '100px',
+        height: '100px'
+      }}
+    >Home</div>
         </Link>
         <Link to="/about">
-          <div>ABOUT</div>
+          <div
+      style={{
+        backgroundColor: '#79b6f2',
+        width: '100px',
+        height: '100px'
+      }}
+    >About</div>
         </Link>
         <Link to="/projects">
-          <div>PROJECTS</div>
+          <div
+      style={{
+        backgroundColor: '#8dc891',
+        width: '100px',
+        height: '100px'
+      }}
+    >Projects</div>
         </Link>
       </nav>
     </header>
