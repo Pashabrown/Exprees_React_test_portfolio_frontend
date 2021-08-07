@@ -26,7 +26,9 @@ function About(props) {
       <hr></hr>
       <h3>{about.email}</h3>
       <div>
-      <column>I am a Software engineer who started and ran my own business for 12 years.<br></br> I’m an exceptional communicator and project manager, with a natural ability to help a team execute goals.<br></br> I also have a background in Sales, and helped build a startup company in Life Sciences.</column>
+      <column><h3><b>I am a Software engineer who started and ran my own business for 12 years.</b></h3><br></br> 
+      <h3><b>I’m an exceptional communicator and project manager, with a natural ability to help a team execute goals.</b></h3><br></br> 
+      <h3><b>I also have a background in Sales, and helped build a startup company in Life Sciences.</b></h3> </column>
     </div>
     </div>
 

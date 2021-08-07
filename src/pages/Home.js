@@ -1,6 +1,7 @@
 function Home(props) {
   return (
   <div>
+    
     <h1><h2>Fun fact:</h2> I bought my first property in Hawaii, Leilani Estates. A month later, lava engulfed it.</h1>
     <div>
 
