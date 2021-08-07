@@ -59,6 +59,11 @@ export default function StickyFooter() {
           <hr></hr>
           <Button href="https://docs.mongodb.com/manual/tutorial/" color="secondary" type="submit" value="MongoDb Link">MongoDb</Button>
           <img src='https://1000logos.net/wp-content/uploads/2020/08/MongoDB-Logo.png' width= "55"></img>
+          <hr></hr>
+          <Button href="https://developer.mozilla.org/en-US/docs/Web/HTML" color="secondary" type="submit" value="HTML">HTML</Button>
+          
+          <hr></hr>
+          <Button href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" color="secondary" type="submit" value="CSS">CSS</Button>
           
           <hr/>
           <h1>{''}</h1>
