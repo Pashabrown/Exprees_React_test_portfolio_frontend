@@ -9,6 +9,10 @@ function Home(props) {
               width="500"
               height="400">
         </img>
+        <img src="https://i.imgur.com/gqCZdhf.jpg"
+              width="400"
+        >
+        </img>
         </div>
   </div>);
 }

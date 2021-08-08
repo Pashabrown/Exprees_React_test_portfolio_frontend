@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 
+
 function About(props) {
   // create state to hold about data
   const [about, setAbout] = useState(null);
@@ -37,6 +38,7 @@ function About(props) {
   // if data arrives return the result of loaded, if not, an h1 that says loading
   //Use a ternary to render one thing if we have the data from the api and something else if we don't
   return about ? loaded() : <h1>Loading...</h1>;
+  
 }
 
 export default About;

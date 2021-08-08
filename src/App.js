@@ -6,11 +6,13 @@ import Header from "./components/Header"
 
 
 import Footer from "./components/Footer"
-
+import Album from  "./components/Album"
+import ImageArray from  "./components/ImageArray"
 // pages
 import Projects from "./pages/Projects"
 import Home from "./pages/Home"
 import About from "./pages/About"
+
 
 
 function App() {
@@ -48,7 +50,8 @@ function App() {
       </Switch>
       </div>
          </div> 
-      
+    <ImageArray />
+    <Album />
     <Footer />
     </div>
     </div>
