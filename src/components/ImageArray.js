@@ -61,8 +61,8 @@ export default function App() {
     return (
       <img
         src={el.img}
-        width="120"
-        height="120"
+        width="100"
+        height="100"
         alt={el.city}
         key={index}
         className={"thumbnails"}
@@ -80,7 +80,7 @@ export default function App() {
         {/* <img src="" id="bigimage" alt='bigImaage'/> */}
 
         <div id="bigImage">
-          <img src={bigImage} id="bigImage" width="500" alt="bigImage" />
+          <img src={bigImage} id="bigImage" width="400" alt="bigImage" />
         </div>
         <div><h1>{imagesArr.city}</h1></div>
       </div>
