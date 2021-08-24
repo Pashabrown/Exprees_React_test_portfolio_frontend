@@ -69,7 +69,7 @@ export default function StickyFooter() {
           <h1>{''}</h1>
         </Typography>
         <Button href="https://i.imgur.com/AUW3FJC.png" color="secondary" type="submit" value="Resume">Resume</Button>
-          <img src='https://i.imgur.com/AUW3FJC.png' width= "90"></img>
+          <img src='https://i.imgur.com/AUW3FJC.png' width= "18"></img>
           <hr></hr>
         <Link variant="body1" href="https://www.pashabrownbooks.com">Children's Book Writer</Link>
         <hr/>
