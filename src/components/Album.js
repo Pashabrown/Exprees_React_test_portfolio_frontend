@@ -29,7 +29,7 @@ function Copyright() {
 
 const useStyles = makeStyles((theme) => ({
   icon: {
-    marginRight: theme.spacing(2),
+    marginRight: theme.spacing(1),
   },
   heroContent: {
     backgroundColor: theme.palette.background.paper,
@@ -48,7 +48,7 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: 'column',
   },
   cardMedia: {
-    paddingTop: '99%', // 16:9
+    paddingTop: '45%', // 16:9
   },
   cardContent: {
     flexGrow: 1,
@@ -75,15 +75,16 @@ export default function Album() {
         
         <Container className={classes.cardGrid} maxWidth="xl">
           {/* End hero unit */}
-          <Grid container spacing={9}>
+          <Grid container spacing={2}>
             {cards.map((card) => (
-              <Grid item key={card} xs={12} sm={6} md={4}>
+              <Grid item key={card} xs={2} sm={6} md={4}>
                 <Card className={classes.card}>
                   <CardMedia
                     className={classes.cardMedia}
                     image="https://i.imgur.com/ZSka1Q5.jpg"
                     title="Image title"
                   />
+                  
                   
                   <CardContent className={classes.cardContent}>
                     <Typography gutterBottom variant="h5" component="">
@@ -95,11 +96,50 @@ export default function Album() {
                   </CardContent>
                  
                 </Card>
+
+                
+                
               </Grid>
+              
+            ))}
+          </Grid>
+
+          <Grid container spacing={2}>
+            {cards.map((card) => (
+              <Grid item key={card} xs={12} sm={6} md={4}>
+                <Card className={classes.card}>
+                  <CardMedia
+                    className={classes.cardMedia}
+                    image="https://i.imgur.com/nyljaMX.png"
+                    title="Image title"
+                  />
+                  
+                  
+                  <CardContent className={classes.cardContent}>
+                    <Typography gutterBottom variant="h5" component="">
+                      Favorite Tech Activity
+                    </Typography>
+                    <Typography>
+                      Breaking code and improving it. 
+                    </Typography>
+                  {/* <blockquote class="imgur-embed-pub" lang="en" data-id="pWx10ZX"  ><a href="//imgur.com/pWx10ZX">Beautiful Park</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script> */}
+                  </CardContent>
+                 
+                </Card>
+
+                
+                
+              </Grid>
+              
             ))}
           </Grid>
         </Container>
+        
       </main>
+      <Button >Test Button</Button>
+
+      
+
       
     </React.Fragment>
   );

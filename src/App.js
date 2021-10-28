@@ -8,10 +8,12 @@ import Header from "./components/Header"
 import Footer from "./components/Footer"
 import Album from  "./components/Album"
 import ImageArray from  "./components/ImageArray"
+import Devskill from  "./components/Devskill"
 // pages
 import Projects from "./pages/Projects"
 import Home from "./pages/Home"
 import About from "./pages/About"
+
 
 
 
@@ -52,6 +54,7 @@ function App() {
          </div> 
     <ImageArray />
     <Album />
+    <Devskill />
     <Footer />
     </div>
     </div>

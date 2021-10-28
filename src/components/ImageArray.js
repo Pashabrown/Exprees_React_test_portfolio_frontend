@@ -84,6 +84,8 @@ export default function App() {
         </div>
         <div><h1>{imagesArr.city}</h1></div>
       </div>
+      
+      
     </div>
   );
 }
